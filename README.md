@@ -34,8 +34,6 @@ Hello! This is my first React JS project. Here you can see all the features, tha
   <summary>Client</summary>
   <ul>
     <li><a href="#">React JS</a></li>
-    <li><a href="#">babel</a></li>
-    <li><a href="#">Node JS</a></li>
   </ul>
 </details>
 
