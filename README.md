@@ -28,7 +28,7 @@ Hello! This is my first React JS project. Here you can see all the features, tha
 ![Babel](https://icongr.am/devicon/babel-original.svg?size=50&color=currentColor)
 ![NodeJS](https://icongr.am/devicon/nodejs-original.svg?size=50&color=currentColor)
 
-### Tech Stack <a name="#tech-stack">HTML, CSS, Javascript, APIs</a>
+### Tech Stack <a name="#tech-stack"> React JS, Babel, Node JS</a>
 
 <details>
   <summary>Client</summary>
