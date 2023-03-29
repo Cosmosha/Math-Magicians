@@ -46,15 +46,15 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 ```
 Git
-VS Code
+VSCode
 Node
 ```
 
 ### Setup
 ```
 cd my-folder
-gh repo clone everinurmind/JavaScript-group-capstone
-cd JavaScript-group-capstone
+gh repo clone cosmosha/Math-Magicians
+cd Magicians
 ```
 ### Install
 ```
