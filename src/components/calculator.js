@@ -3,8 +3,8 @@ function Calculator() {
     <div className="container">
       <div className="calculator-grid">
         <div className="display">
-          <div className="previou-operand"> 12 + 23 </div>
-          <div className="current-operand"> 122,32</div>
+          <div className="previou-operand">  </div>
+          <div className="current-operand"> 0</div>
         </div>
         <button type="button">AC</button>
         <button type="button"> +/- </button>
