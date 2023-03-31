@@ -1,4 +1,4 @@
-import CalcButtons from './CalcButtons';
+import CalcButtons from './calcButtons';
 
 function Calculator() {
   return (
