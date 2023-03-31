@@ -29,7 +29,7 @@ export default function CalcButtons() {
       <button type="button" onClick={() => calcAction('AC')}>AC</button>
       <button type="button" onClick={() => calcAction('+/-')}> +/- </button>
       <button type="button" onClick={() => calcAction('%')}> % </button>
-      <button type="button" className="operators" onClick={() => calcAction('+')}> + </button>
+      <button type="button" className="operators" onClick={() => calcAction('÷')}> ÷ </button>
       <button type="button" onClick={() => calcAction('7')}> 7 </button>
       <button type="button" onClick={() => calcAction('8')}> 8 </button>
       <button type="button" onClick={() => calcAction('9')}> 9 </button>
