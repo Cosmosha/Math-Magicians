@@ -1,9 +1,9 @@
-import CalcButtons from './calcButtons';
+import CalculationButtons from './calculationButtons';
 
 function Calculator() {
   return (
     <div className="container">
-      <CalcButtons />
+      <CalculationButtons />
     </div>
   );
 }

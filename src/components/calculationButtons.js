@@ -1,4 +1,4 @@
-export default function CalcButtons() {
+export default function CalculationButtons() {
   return (
     <div className="calculator-grid">
       <div className="display">
