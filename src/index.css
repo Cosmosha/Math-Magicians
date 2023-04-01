@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   margin: 0;
   background-color: rgb(193, 176, 176);
@@ -63,4 +68,9 @@ button.operators {
 .calculator-grid > button:hover,
 .calculator-grid > button:focus {
   background-color: rgba(255, 255, 255, 0.95);
+}
+
+.getFetched {
+  padding: 2rem;
+  font-size: 1.8rem;
 }
