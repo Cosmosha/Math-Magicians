@@ -37,7 +37,11 @@ function Quote() {
           {' '}
           <br />
           {' '}
-          {item.author}
+          <div className="author">
+            {' '}
+            --By:
+            {item.author}
+          </div>
           {' '}
         </li>
       ))}
