@@ -55,42 +55,42 @@ describe('Test calculate', () => {
     const res = calculate(obj, '=');
     expect(res.total).toBe('2');
   });
+});
 
-  describe('Testing operate', () => {
-    it('6 + 4 = 10', () => {
-      const result = operate(6, 4, '+');
-      expect(result).toBe('10');
-    });
-    it('6 - 4 = 2', () => {
-      const result = operate(6, 4, '-');
-      expect(result).toBe('2');
-    });
-    it('6 x 4 = 24', () => {
-      const result = operate(6, 4, 'x');
-      expect(result).toBe('24');
-    });
-    it('6 ÷ 4 = 1.5', () => {
-      const result = operate(6, 4, '÷');
-      expect(result).toBe('1.5');
-    });
-    it('6 % 4 = 2', () => {
-      const result = operate(6, 4, '%');
-      expect(result).toBe('2');
-    });
+describe('Testing Operate', () => {
+  it('6 + 4 = 10', () => {
+    const result = operate(6, 4, '+');
+    expect(result).toBe('10');
   });
+  it('6 - 4 = 2', () => {
+    const result = operate(6, 4, '-');
+    expect(result).toBe('2');
+  });
+  it('6 x 4 = 24', () => {
+    const result = operate(6, 4, 'x');
+    expect(result).toBe('24');
+  });
+  it('6 ÷ 4 = 1.5', () => {
+    const result = operate(6, 4, '÷');
+    expect(result).toBe('1.5');
+  });
+  it('6 % 4 = 2', () => {
+    const result = operate(6, 4, '%');
+    expect(result).toBe('2');
+  });
+});
 
-  describe('Component UI render as expected', () => {
-    it('Calculator renders correctly', () => {
-      const tree = renderer.create(<Calculator />).toJSON();
-      expect(tree).toMatchSnapshot();
-    });
-    it('Home renders correctly', () => {
-      const tree = renderer.create(<Home />).toJSON();
-      expect(tree).toMatchSnapshot();
-    });
-    it('Quote renders correctly', () => {
-      const tree = renderer.create(<Quote />).toJSON();
-      expect(tree).toMatchSnapshot();
-    });
+describe('Component UI render as expected', () => {
+  it('Calculator renders correctly', () => {
+    const tree = renderer.create(<Calculator />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('Home renders correctly', () => {
+    const tree = renderer.create(<Home />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('Quote renders correctly', () => {
+    const tree = renderer.create(<Quote />).toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });
