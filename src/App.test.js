@@ -1,4 +1,3 @@
-import operate from './logic/operate';
 import calculate from './logic/calculate';
 
 describe('Test calculate', () => {
@@ -51,18 +50,4 @@ describe('Test calculate', () => {
     const res = calculate(obj, '=');
     expect(res.total).toBe('2');
   });
-
-  //   it('throws an error for unknown operations', () => {
-  //     expect(() => operate(5, 10, '%')).toThrow("Unknown operation '%'");
-  //   });
-
-  //   it('throws an error for division by zero', () => {
-  //     expect(() => operate(5, 0, '÷')).toThrow("Can't divide by 0.");
-  //   });
-
-  //   it('throws an error for modulo by zero', () => {
-  //     expect(() => operate(5, 0, '%')).toThrow(
-  //       "Can't find modulo as can't divide by 0."
-  //     );
-  //   });
 });
