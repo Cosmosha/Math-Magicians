@@ -1,7 +1,7 @@
 import calculate from './logic/calculate';
 
-describe('Test calculate', () => {
-  it('6 + 4 = 10', () => {
+describe('calculate', () => {
+  it('should return the correct result for addition', () => {
     const obj = {
       total: '6',
       next: '4',
@@ -11,7 +11,7 @@ describe('Test calculate', () => {
     expect(res.total).toBe('10');
   });
 
-  it('6 - 4 = 2', () => {
+  it('should return the correct result for subtraction', () => {
     const obj = {
       total: '6',
       next: '4',
@@ -21,7 +21,7 @@ describe('Test calculate', () => {
     expect(res.total).toBe('2');
   });
 
-  it('6 x 4 = 24', () => {
+  it('should return the correct result for multiplication', () => {
     const obj = {
       total: '6',
       next: '4',
@@ -31,7 +31,7 @@ describe('Test calculate', () => {
     expect(res.total).toBe('24');
   });
 
-  it('6 ÷ 4 = 1.5', () => {
+  it('should return the correct result for division', () => {
     const obj = {
       total: '6',
       next: '4',
@@ -41,7 +41,7 @@ describe('Test calculate', () => {
     expect(res.total).toBe('1.5');
   });
 
-  it('6 % 4 = 2', () => {
+  it('should return the correct result for modulo', () => {
     const obj = {
       total: '6',
       next: '4',
