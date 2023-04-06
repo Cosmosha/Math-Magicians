@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test calculate Component UI render as expected Calculator renders correctly 1`] = `
+Array [
+  <div
+    className="container"
+  >
+    <h1
+      className="headline"
+    >
+       Let do some math! 
+    </h1>
+     
+    <div
+      className="calculator-grid"
+    >
+      <div
+        className="display"
+      >
+        <div
+          className="previou-operand"
+        >
+          0
+           
+        </div>
+        <div
+          className="current-operand"
+        />
+      </div>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         +/- 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         % 
+      </button>
+      <button
+        className="operators"
+        onClick={[Function]}
+        type="button"
+      >
+         ÷ 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         7 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         8 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         9 
+      </button>
+      <button
+        className="operators"
+        onClick={[Function]}
+        type="button"
+      >
+         x 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         4 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         5 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         6 
+      </button>
+      <button
+        className="operators"
+        onClick={[Function]}
+        type="button"
+      >
+         - 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         1 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         2 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         3 
+      </button>
+      <button
+        className="operators"
+        onClick={[Function]}
+        type="button"
+      >
+         + 
+      </button>
+      <button
+        className="span-two"
+        onClick={[Function]}
+        type="button"
+      >
+         0 
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         . 
+      </button>
+      <button
+        className="operators"
+        onClick={[Function]}
+        type="button"
+      >
+         = 
+      </button>
+    </div>
+  </div>,
+  " ",
+]
+`;
+
+exports[`Test calculate Component UI render as expected Home renders correctly 1`] = `
+<div
+  className="quote-para"
+>
+  <h1>
+     Welcome to Our Page! 
+  </h1>
+   
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     
+  </p>
+   
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodd tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     
+  </p>
+   
+</div>
+`;
+
+exports[`Test calculate Component UI render as expected Quote renders correctly 1`] = `
+<ul
+  className="getFetched"
+>
+   
+   
+</ul>
+`;

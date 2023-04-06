@@ -1,5 +1,9 @@
+import renderer from 'react-test-renderer';
 import operate from './logic/operate';
 import calculate from './logic/calculate';
+import Calculator from './components/calculator';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
 describe('Test calculate', () => {
   it('6 + 4 = 10', () => {
@@ -52,17 +56,41 @@ describe('Test calculate', () => {
     expect(res.total).toBe('2');
   });
 
-  //   it('throws an error for unknown operations', () => {
-  //     expect(() => operate(5, 10, '%')).toThrow("Unknown operation '%'");
-  //   });
+  describe('Testing operate', () => {
+    it('6 + 4 = 10', () => {
+      const result = operate(6, 4, '+');
+      expect(result).toBe('10');
+    });
+    it('6 - 4 = 2', () => {
+      const result = operate(6, 4, '-');
+      expect(result).toBe('2');
+    });
+    it('6 x 4 = 24', () => {
+      const result = operate(6, 4, 'x');
+      expect(result).toBe('24');
+    });
+    it('6 ÷ 4 = 1.5', () => {
+      const result = operate(6, 4, '÷');
+      expect(result).toBe('1.5');
+    });
+    it('6 % 4 = 2', () => {
+      const result = operate(6, 4, '%');
+      expect(result).toBe('2');
+    });
+  });
 
-  //   it('throws an error for division by zero', () => {
-  //     expect(() => operate(5, 0, '÷')).toThrow("Can't divide by 0.");
-  //   });
-
-  //   it('throws an error for modulo by zero', () => {
-  //     expect(() => operate(5, 0, '%')).toThrow(
-  //       "Can't find modulo as can't divide by 0."
-  //     );
-  //   });
+  describe('Component UI render as expected', () => {
+    it('Calculator renders correctly', () => {
+      const tree = renderer.create(<Calculator />).toJSON();
+      expect(tree).toMatchSnapshot();
+    });
+    it('Home renders correctly', () => {
+      const tree = renderer.create(<Home />).toJSON();
+      expect(tree).toMatchSnapshot();
+    });
+    it('Quote renders correctly', () => {
+      const tree = renderer.create(<Quote />).toJSON();
+      expect(tree).toMatchSnapshot();
+    });
+  });
 });
