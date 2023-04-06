@@ -3,7 +3,7 @@ import operate from './logic/operate';
 import calculate from './logic/calculate';
 import Calculator from './components/calculator';
 import Home from './components/Home';
-import Quote from './components/Quote';
+import Quote from './components/quote';
 
 describe('Test calculate', () => {
   it('6 + 4 = 10', () => {
