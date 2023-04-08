@@ -71,7 +71,7 @@ npm test
 ```
 ### Deployment
 
-Link: [Math-Magicians deplyed link](https://math-magicians-zb7a.onrender.com)
+Link: [Math-Magicians deployed link](https://math-magicians-zb7a.onrender.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
